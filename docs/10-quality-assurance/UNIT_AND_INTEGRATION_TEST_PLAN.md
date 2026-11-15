@@ -48,7 +48,7 @@ Specifies test scopes, fixtures, mocks policy (strictly forbidden for core physi
 | :--- | :--- | :--- |
 | **Worker Lifecycle & Cancellation** | `init` -> `solve` -> `cancel` -> rapid config switch resolves newest request ID cleanly without stale telemetry leak (`KIN-SIM-026`, `KIN-SIM-027`). | Real WASM Worker bundle inside browser/worker harness; no fake solver outputs. |
 | **Zero-Backend Offline Flow** | App boots, loads all 7 configs, runs all 3 simulator modes, opens Insights/Library with network interception blocking all HTTP calls. | Playwright route abort (`**/*.json` network fail checks fallback to cached local bundle). |
-| **JSON Schema Conformance** | Every bundled `vehicle-configuration`, `component`, `simulation-request`, `simulation-response`, and `learning-content` document validates against `docs/schemas/*.schema.json`. | Zero schema waivers. |
+| **JSON Schema Conformance** | Every bundled `vehicle-configuration.schema.json`, `component.schema.json`, `simulation-input.schema.json`, `simulation-output.schema.json`, `animation-sequence.schema.json`, and `LEARNING_CONTENT_SCHEMA.md` dataset validates strictly. | Zero schema waivers. |
 | **Zustand Store Sync** | Changing active configuration, exploding slider, or Journey step updates R3F scene props, HUD values, and URL/session state consistently. | UI component isolation tests only; store logic unmocked. |
 
 ---

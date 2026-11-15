@@ -142,7 +142,7 @@ All 22 non-functional requirements defined in [`NON_FUNCTIONAL_REQUIREMENTS.md`]
 | `KIN-DATA-006`, `KIN-DATA-007`, `KIN-DATA-008`, `KIN-DATA-009` | `CANONICAL_ID_REGISTRY.md` | Canonical ID regex + cross-reference uniqueness audit | `AC-002`, `AC-006` |
 | `KIN-DATA-010`, `KIN-DATA-011`, `KIN-DATA-012` | `VEHICLE_CONFIGURATION_SCHEMA.md` | `vehicle-configuration.schema.json` + $a+b=L$ invariant | `AC-002` |
 | `KIN-DATA-013`, `KIN-DATA-014` | `COMPONENT_SCHEMA.md` | `component.schema.json` Draft 2020-12 CI check | `AC-006` |
-| `KIN-DATA-015`, `KIN-DATA-016`, `KIN-DATA-017`, `KIN-DATA-018` | `SIMULATION_CONTRACTS.md` | `simulation-request` & `simulation-response` schema checks | `AC-014`, `AC-017` |
+| `KIN-DATA-015`, `KIN-DATA-016`, `KIN-DATA-017`, `KIN-DATA-018` | `SIMULATION_CONTRACTS.md` | `simulation-input.schema.json` & `simulation-output.schema.json` checks | `AC-014`, `AC-017` |
 | `KIN-DATA-019`, `KIN-DATA-020`, `KIN-DATA-021` | `API_SPECIFICATION.md` | Worker RPC + optional FastAPI `pytest` contract tests | `AC-018` |
 | `KIN-DATA-022`, `KIN-DATA-023` | `ERROR_CONTRACTS.md` | Canonical `ERR_*` / `WARN_*` contract parity suite | `AC-021` |
 | `KIN-DATA-024`, `KIN-DATA-025` | `DATA_VERSIONING.md` | SemVer compatibility & alias preservation checks | `AC-019` |

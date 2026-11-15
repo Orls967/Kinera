@@ -8,7 +8,7 @@
 
 ## 1. Purpose
 
-Defines objective, pass/fail V1 release acceptance criteria (`AC-001`–`AC-028`) mapped directly to PRD, Functional, and Non-Functional requirements along with their required verification methods.
+Defines objective, pass/fail V1 release acceptance criteria (`AC-001`–`AC-022`) mapped directly to PRD, Functional, and Non-Functional requirements along with their required verification methods.
 
 ## 2. Master V1 Acceptance Criteria Table
 

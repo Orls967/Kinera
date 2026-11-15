@@ -10,7 +10,7 @@
 
 ## Summary Progress
 
-- **Total Planned Phase 0 Files:** 101 (96 Markdown specifications + 5 JSON Schemas) + audit utilities
+- **Total Planned Phase 0 Files:** 101 domain specification & schema files (96 Markdown specifications across `00-*`–`12-*` + 5 JSON Schemas) + 4 doc-portal files (105 tracked rows) + audit utility (`scripts/audit_phase0.py`)
 - **Current Phase Gate:** Repository Pre-Flight Verified (`Orls967/Kinera`, `main`)
 
 ---
@@ -113,10 +113,10 @@
 | `11-delivery-and-operations/ENVIRONMENT_CONFIGURATION.md` | COMPLETE | 100 | 2026-11-16 | Deployment Arch | Self-reviewed | `69da9db` | Pushed (`main`) | — |
 | `11-delivery-and-operations/SECURITY_CONSIDERATIONS.md` | COMPLETE | 100 | 2026-11-16 | 06-software | Self-reviewed | `69da9db` | Pushed (`main`) | — |
 | `11-delivery-and-operations/MAINTENANCE_AND_FUTURE_EXPANSION.md` | COMPLETE | 100 | 2026-11-16 | Scope, Roadmap | Self-reviewed | `69da9db` | Pushed (`main`) | — |
-| `12-project-governance/REQUIREMENTS_TRACEABILITY_MATRIX.md` | COMPLETE | 100 | 2026-11-16 | All specs | Self-reviewed | Pending commit 10c | Pending | — |
-| `12-project-governance/DOCUMENTATION_CROSS_REFERENCE_MATRIX.md` | COMPLETE | 100 | 2026-11-16 | All specs | Self-reviewed | Pending commit 10c | Pending | — |
-| `12-project-governance/RISK_REGISTER.md` | COMPLETE | 100 | 2026-11-16 | All specs | Self-reviewed | Pending commit 10c | Pending | — |
-| `12-project-governance/DECISION_LOG.md` | COMPLETE | 100 | 2026-11-16 | Locked decisions | Self-reviewed | Pending commit 10c | Pending | — |
+| `12-project-governance/REQUIREMENTS_TRACEABILITY_MATRIX.md` | COMPLETE | 100 | 2026-11-16 | All specs | Self-reviewed | `4411243` | Pushed (`main`) | — |
+| `12-project-governance/DOCUMENTATION_CROSS_REFERENCE_MATRIX.md` | COMPLETE | 100 | 2026-11-16 | All specs | Self-reviewed | `4411243` | Pushed (`main`) | — |
+| `12-project-governance/RISK_REGISTER.md` | COMPLETE | 100 | 2026-11-16 | All specs | Self-reviewed | `4411243` | Pushed (`main`) | — |
+| `12-project-governance/DECISION_LOG.md` | COMPLETE | 100 | 2026-11-16 | Locked decisions | Self-reviewed | `4411243` | Pushed (`main`) | — |
 | `12-project-governance/DOCUMENTATION_AUDIT_REPORT.md` | NOT_STARTED | 0 | 2026-11-16 | Full audit | Pending | — | — | — |
 | `12-project-governance/PHASE_0_COMPLETION_REPORT.md` | NOT_STARTED | 0 | 2026-11-16 | Audit report | Pending | — | — | — |
 | `schemas/vehicle-configuration.schema.json` | COMPLETE | 100 | 2026-11-16 | 07-data | JSON validated | `0f3d2f7` | Pushed (`main`) | — |

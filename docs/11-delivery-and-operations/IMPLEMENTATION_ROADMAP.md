@@ -65,7 +65,7 @@ Defines the gated multi-phase delivery roadmap (Phase 0 through Phase 7) from lo
 ### Phase 5 — Engineering Insights Curriculum & Technical Library Content
 - **Objective:** Author, verify, and ship all 37 `Engineering Insights` topics (4 groups) and 10 `Technical Library` modules (`9-part` template), linked dynamically to Simulator scenarios and 3D presets.
 - **Dependencies:** Phase 4 deep-link URL / state routes & KaTeX renderer.
-- **Deliverables:** Validated `learning-content.schema.json` dataset for all 47 educational items, embedded schematics, verified citation footnotes (`ref.*`), deep-link "Launch in Simulator" triggers.
+- **Deliverables:** Validated dataset matching [`LEARNING_CONTENT_SCHEMA.md`](../09-learning-and-content/LEARNING_CONTENT_SCHEMA.md) for all 47 educational items, embedded schematics, verified citation footnotes (`ref.*`), deep-link "Launch in Simulator" triggers.
 - **Exit Criteria:** Zero broken equation/component/scenario links; 100% schema conformance; all formulas cross-checked against `EQUATION_REFERENCE.md` (`AC-016`, `AC-022`).
 - **Verification:** Automated content schema + link checker + offline rendering pass.
 - **Risks:** Uncited or oversimplified claims -> mitigated by `TECHNICAL_REFERENCE_POLICY.md` editorial gate.

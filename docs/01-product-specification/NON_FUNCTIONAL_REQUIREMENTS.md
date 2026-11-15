@@ -8,7 +8,7 @@
 
 ## 1. Purpose
 
-Defines measurable, verifiable quality attributes (`KIN-NFR-001`–`KIN-NFR-024`) covering performance, simulation determinism, 3D rendering budgets, offline resilience, accessibility, responsiveness, browser compatibility, security, and maintainability.
+Defines measurable, verifiable quality attributes (`KIN-NFR-001`–`KIN-NFR-022`) covering performance, simulation determinism, 3D rendering budgets, offline resilience, accessibility, responsiveness, browser compatibility, security, and maintainability.
 
 ## 2. Performance & 3D Rendering Requirements
 
@@ -59,7 +59,7 @@ Defines measurable, verifiable quality attributes (`KIN-NFR-001`–`KIN-NFR-024`
 
 ## 7. Cross-References
 
-- [`PRODUCT_REQUIREMENTS_DOCUMENT.md`](PRODUCT_REQUIREMENTS_DOCUMENT.md)
+- [`PRODUCT_REQUIREMENTS_DOCUMENT.md`](../00-project-foundation/PRODUCT_REQUIREMENTS_DOCUMENT.md)
 - [`ACCEPTANCE_CRITERIA.md`](ACCEPTANCE_CRITERIA.md)
 - [`../08-3d-and-visualization/3D_PERFORMANCE_BUDGET.md`](../08-3d-and-visualization/3D_PERFORMANCE_BUDGET.md)
 - [`../10-quality-assurance/PERFORMANCE_TEST_PLAN.md`](../10-quality-assurance/PERFORMANCE_TEST_PLAN.md)

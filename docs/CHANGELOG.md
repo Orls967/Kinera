@@ -90,3 +90,9 @@ All notable additions, revisions, and audit resolutions to the KINERA Phase 0 do
 
 ### Added
 - Core governance artifacts (`REQUIREMENTS_TRACEABILITY_MATRIX.md` tracing all 274 requirements across `KIN-PRD`, `KIN-FR`, `KIN-NFR`, `KIN-VEH`, `KIN-PWT`, `KIN-VDY`, `KIN-SIM`, `KIN-DATA`, `KIN-3D`, `KIN-QA`; `DOCUMENTATION_CROSS_REFERENCE_MATRIX.md`; `RISK_REGISTER.md`; and `DECISION_LOG.md`).
+
+## [0.14.1] - 2026-11-16 — Automated Cross-Document Audit & Remediation (`docs/scripts/audit_phase0.py`)
+
+### Added / Fixed
+- Added `docs/scripts/audit_phase0.py` verifying file inventory, Draft 2020-12 JSON Schemas, relative markdown links, `REQUIREMENTS_TRACEABILITY_MATRIX.md` 100% coverage, canonical ID/equation/reference consistency, and 24 numerical math benchmarks.
+- Fixed broken relative PRD links in `FUNCTIONAL_REQUIREMENTS.md` and `NON_FUNCTIONAL_REQUIREMENTS.md`, corrected header ID range typos (`KIN-NFR-024` -> `KIN-NFR-022`, `AC-028` -> `AC-022`), aligned schema names to `docs/schemas/*.schema.json` across QA/Roadmap/RTM docs, and linked `3D_ASSET_SPECIFICATION.md` in `CANONICAL_ID_REGISTRY.md` Section 4.9.
