@@ -19,16 +19,16 @@
 
 | Document | Status | % | Last Updated | Dependencies | Review Status | Commit | Push Status | Outstanding Issues |
 | :--- | :--- | :---: | :--- | :--- | :--- | :--- | :--- | :--- |
-| `docs/README.md` | COMPLETE | 100 | 2026-11-16 | Pre-flight | Self-reviewed | Pending commit 1a | Pending | — |
-| `docs/DOCUMENTATION_INDEX.md` | COMPLETE | 100 | 2026-11-16 | `docs/README.md` | Self-reviewed | Pending commit 1a | Pending | — |
-| `docs/DOCUMENTATION_STATUS.md` | IN_PROGRESS | 100 | 2026-11-16 | Active tracker | Living doc | Pending commit 1a | Pending | Updated per commit unit |
-| `docs/CHANGELOG.md` | IN_PROGRESS | 100 | 2026-11-16 | Living log | Living doc | Pending commit 1a | Pending | Updated per commit unit |
-| `00-project-foundation/PROJECT_CHARTER.md` | NOT_STARTED | 0 | 2026-11-16 | Pre-flight | Pending | — | — | — |
-| `00-project-foundation/PRODUCT_VISION.md` | NOT_STARTED | 0 | 2026-11-16 | Charter | Pending | — | — | — |
-| `00-project-foundation/PRODUCT_REQUIREMENTS_DOCUMENT.md` | NOT_STARTED | 0 | 2026-11-16 | Vision, Scope | Pending | — | — | — |
-| `00-project-foundation/PRODUCT_SCOPE.md` | NOT_STARTED | 0 | 2026-11-16 | Charter | Pending | — | — | — |
-| `00-project-foundation/GLOSSARY.md` | NOT_STARTED | 0 | 2026-11-16 | Vision | Pending | — | — | — |
-| `00-project-foundation/ASSUMPTIONS_AND_CONSTRAINTS.md` | NOT_STARTED | 0 | 2026-11-16 | PRD, Scope | Pending | — | — | — |
+| `docs/README.md` | COMPLETE | 100 | 2026-11-16 | Pre-flight | Self-reviewed | `334f913` | Pushed (`main`) | — |
+| `docs/DOCUMENTATION_INDEX.md` | COMPLETE | 100 | 2026-11-16 | `docs/README.md` | Self-reviewed | `334f913` | Pushed (`main`) | — |
+| `docs/DOCUMENTATION_STATUS.md` | IN_PROGRESS | 100 | 2026-11-16 | Active tracker | Living doc | Active | Pushed incrementally | Updated per commit unit |
+| `docs/CHANGELOG.md` | IN_PROGRESS | 100 | 2026-11-16 | Living log | Living doc | Active | Pushed incrementally | Updated per commit unit |
+| `00-project-foundation/PROJECT_CHARTER.md` | COMPLETE | 100 | 2026-11-16 | Pre-flight | Self-reviewed | Pending commit 1b | Pending | — |
+| `00-project-foundation/PRODUCT_VISION.md` | COMPLETE | 100 | 2026-11-16 | Charter | Self-reviewed | Pending commit 1b | Pending | — |
+| `00-project-foundation/PRODUCT_REQUIREMENTS_DOCUMENT.md` | COMPLETE | 100 | 2026-11-16 | Vision, Scope | Self-reviewed | Pending commit 1b | Pending | — |
+| `00-project-foundation/PRODUCT_SCOPE.md` | COMPLETE | 100 | 2026-11-16 | Charter | Self-reviewed | Pending commit 1b | Pending | — |
+| `00-project-foundation/GLOSSARY.md` | COMPLETE | 100 | 2026-11-16 | Vision | Self-reviewed | Pending commit 1b | Pending | — |
+| `00-project-foundation/ASSUMPTIONS_AND_CONSTRAINTS.md` | COMPLETE | 100 | 2026-11-16 | PRD, Scope | Self-reviewed | Pending commit 1b | Pending | — |
 | `01-product-specification/APPLICATION_STRUCTURE.md` | NOT_STARTED | 0 | 2026-11-16 | PRD | Pending | — | — | — |
 | `01-product-specification/USER_PERSONAS_AND_JOURNEYS.md` | NOT_STARTED | 0 | 2026-11-16 | App Structure | Pending | — | — | — |
 | `01-product-specification/FUNCTIONAL_REQUIREMENTS.md` | NOT_STARTED | 0 | 2026-11-16 | PRD, App Structure | Pending | — | — | — |
