@@ -80,3 +80,8 @@ All notable additions, revisions, and audit resolutions to the KINERA Phase 0 do
 
 ### Added
 - All 8 QA specifications (`TEST_STRATEGY.md`, `ENGINEERING_VALIDATION_PLAN.md`, `UNIT_AND_INTEGRATION_TEST_PLAN.md`, `SIMULATION_TEST_CASES.md`, `TOPOLOGY_VALIDATION_TESTS.md`, `3D_AND_INTERACTION_TEST_PLAN.md`, `PERFORMANCE_TEST_PLAN.md`, `ACCEPTANCE_TEST_PLAN.md`) defining `KIN-QA-001`–`KIN-QA-020`, closed-form validation checks across all 29 equations, topology graph mutation tests, all 19 edge-case tests (`TEST-EDGE-001`–`019`), 3D/WASM performance gates, and full `AC-001`–`AC-022` acceptance protocol.
+
+## [0.13.0] - 2026-11-16 — Delivery Roadmap, Deployment & Security (`11-delivery-and-operations/`)
+
+### Added
+- All 6 delivery and operations specifications covering the gated Phase 0–7 Implementation Roadmap, Static PWA & Optional FastAPI Deployment Architecture, SemVer Build/Release Process, Environment Configuration, CSP/WASM/API Security Controls, and Non-Breaking V1.1–V2.0 Expansion Paths.
