@@ -70,3 +70,8 @@ All notable additions, revisions, and audit resolutions to the KINERA Phase 0 do
 
 ### Added
 - All 9 3D specifications covering Visual Identity, Design System, GLB/CAD asset standards, reusable Assembly Hierarchy, interaction modes, exploded/section-cut mechanics, camera presets, animation sequences, and 150k-tri / 120-draw-call performance budget (`KIN-3D-001`–`KIN-3D-025`).
+
+## [0.11.0] - 2026-11-16 — Engineering Insights, Technical Library & Verified References (`09-learning-and-content/`)
+
+### Added
+- All 6 learning and reference specifications (`ENGINEERING_INSIGHTS_CURRICULUM.md`, `TECHNICAL_LIBRARY_STRUCTURE.md`, `LEARNING_CONTENT_SCHEMA.md`, `EQUATION_REFERENCE.md`, `GLOSSARY_AND_TERMINOLOGY.md`, `TECHNICAL_REFERENCE_POLICY.md`) defining 37 Engineering Insights topics across 4 groups, 10 Technical Library modules using a 9-part engineering template, locked equation registry (`eq.*`), controlled terminology, and verified textbook/standard bibliography (`Gillespie`, `Milliken & Milliken`, `Rajamani`, `Wong`, `Heywood`, `Ehsani`, `ISO 8855:2011`, `SAE J670_202206`).
