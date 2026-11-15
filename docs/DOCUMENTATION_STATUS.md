@@ -48,13 +48,13 @@
 | `03-powertrain-engineering/POWERTRAIN_ENGINEERING_OVERVIEW.md` | COMPLETE | 100 | 2026-11-16 | 02-vehicle-arch | Self-reviewed | `45db35d` | Pushed (`main`) | — |
 | `03-powertrain-engineering/ICE_ENGINE_MODEL.md` | COMPLETE | 100 | 2026-11-16 | Powertrain Overview | Self-reviewed | `45db35d` | Pushed (`main`) | — |
 | `03-powertrain-engineering/EV_POWERTRAIN_MODEL.md` | COMPLETE | 100 | 2026-11-16 | Powertrain Overview | Self-reviewed | `45db35d` | Pushed (`main`) | — |
-| `03-powertrain-engineering/TRANSMISSION_MODEL.md` | COMPLETE | 100 | 2026-11-16 | ICE/EV Models | Self-reviewed | Pending commit 4b | Pending | — |
-| `03-powertrain-engineering/DIFFERENTIAL_MODEL.md` | COMPLETE | 100 | 2026-11-16 | Drivetrain Topology | Self-reviewed | Pending commit 4b | Pending | — |
-| `03-powertrain-engineering/DRIVETRAIN_EFFICIENCY_MODEL.md` | COMPLETE | 100 | 2026-11-16 | Transmission, Diff | Self-reviewed | Pending commit 4b | Pending | — |
-| `03-powertrain-engineering/POWERTRAIN_JOURNEY_SPECIFICATION.md` | COMPLETE | 100 | 2026-11-16 | Power Flow, Models | Self-reviewed | Pending commit 4b | Pending | — |
-| `04-vehicle-dynamics/VEHICLE_DYNAMICS_OVERVIEW.md` | NOT_STARTED | 0 | 2026-11-16 | 00-foundation | Pending | — | — | — |
-| `04-vehicle-dynamics/LONGITUDINAL_DYNAMICS.md` | NOT_STARTED | 0 | 2026-11-16 | Dynamics Overview | Pending | — | — | — |
-| `04-vehicle-dynamics/LATERAL_DYNAMICS_BICYCLE_MODEL.md` | NOT_STARTED | 0 | 2026-11-16 | Dynamics Overview | Pending | — | — | — |
+| `03-powertrain-engineering/TRANSMISSION_MODEL.md` | COMPLETE | 100 | 2026-11-16 | ICE/EV Models | Self-reviewed | `7648b6c` | Pushed (`main`) | — |
+| `03-powertrain-engineering/DIFFERENTIAL_MODEL.md` | COMPLETE | 100 | 2026-11-16 | Drivetrain Topology | Self-reviewed | `7648b6c` | Pushed (`main`) | — |
+| `03-powertrain-engineering/DRIVETRAIN_EFFICIENCY_MODEL.md` | COMPLETE | 100 | 2026-11-16 | Transmission, Diff | Self-reviewed | `7648b6c` | Pushed (`main`) | — |
+| `03-powertrain-engineering/POWERTRAIN_JOURNEY_SPECIFICATION.md` | COMPLETE | 100 | 2026-11-16 | Power Flow, Models | Self-reviewed | `7648b6c` | Pushed (`main`) | — |
+| `04-vehicle-dynamics/VEHICLE_DYNAMICS_OVERVIEW.md` | COMPLETE | 100 | 2026-11-16 | 00-foundation | Self-reviewed | Pending commit 5a | Pending | — |
+| `04-vehicle-dynamics/LONGITUDINAL_DYNAMICS.md` | COMPLETE | 100 | 2026-11-16 | Dynamics Overview | Self-reviewed | Pending commit 5a | Pending | — |
+| `04-vehicle-dynamics/LATERAL_DYNAMICS_BICYCLE_MODEL.md` | COMPLETE | 100 | 2026-11-16 | Dynamics Overview | Self-reviewed | Pending commit 5a | Pending | — |
 | `04-vehicle-dynamics/BRAKING_DYNAMICS.md` | NOT_STARTED | 0 | 2026-11-16 | Longitudinal, Braking | Pending | — | — | — |
 | `04-vehicle-dynamics/WEIGHT_TRANSFER_MODEL.md` | NOT_STARTED | 0 | 2026-11-16 | Longitudinal, Lateral | Pending | — | — | — |
 | `04-vehicle-dynamics/TIRE_TRACTION_AND_FRICTION_MODEL.md` | NOT_STARTED | 0 | 2026-11-16 | Weight Transfer | Pending | — | — | — |

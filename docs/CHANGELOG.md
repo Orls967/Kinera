@@ -39,3 +39,8 @@ All notable additions, revisions, and audit resolutions to the KINERA Phase 0 do
 
 ### Added
 - `TRANSMISSION_MODEL.md`, `DIFFERENTIAL_MODEL.md`, `DRIVETRAIN_EFFICIENCY_MODEL.md`, and `POWERTRAIN_JOURNEY_SPECIFICATION.md` (`KIN-PWT-014`–`KIN-PWT-028`).
+
+## [0.6.0] - 2026-11-16 — Vehicle Dynamics Longitudinal & Lateral (`04-vehicle-dynamics/` part 1)
+
+### Added
+- `VEHICLE_DYNAMICS_OVERVIEW.md`, `LONGITUDINAL_DYNAMICS.md`, and `LATERAL_DYNAMICS_BICYCLE_MODEL.md` (`KIN-VDY-001`–`KIN-VDY-014`).
