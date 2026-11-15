@@ -24,3 +24,8 @@ All notable additions, revisions, and audit resolutions to the KINERA Phase 0 do
 
 ### Added
 - `VEHICLE_ARCHITECTURE_OVERVIEW.md`, `VEHICLE_CONFIGURATION_SPECIFICATION.md`, `ICE_ARCHITECTURE.md`, and `EV_ARCHITECTURE.md` specifying all 7 canonical V1 vehicle configurations (`ICE-FWD`, `ICE-RWD`, `ICE-AWD`, `ICE-4WD`, `EV-FWD`, `EV-RWD`, `EV-DUAL-AWD`).
+
+## [0.4.1] - 2026-11-16 — Drivetrain Topology & Vehicle Anatomy (`02-vehicle-architecture/` part 2)
+
+### Added
+- `DRIVETRAIN_TOPOLOGY.md`, `POWER_FLOW_TOPOLOGY.md`, `COMPONENT_ANATOMY_SPECIFICATION.md`, `COMPONENT_RELATIONSHIPS.md`, `SUSPENSION_AND_STEERING_SPECIFICATION.md`, and `BRAKING_SYSTEM_SPECIFICATION.md` (`KIN-VEH-016`–`KIN-VEH-028`).

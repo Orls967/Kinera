@@ -35,16 +35,16 @@
 | `01-product-specification/NON_FUNCTIONAL_REQUIREMENTS.md` | COMPLETE | 100 | 2026-11-16 | PRD, Constraints | Self-reviewed | `237ab58` | Pushed (`main`) | — |
 | `01-product-specification/FEATURE_SPECIFICATIONS.md` | COMPLETE | 100 | 2026-11-16 | FRs | Self-reviewed | `237ab58` | Pushed (`main`) | — |
 | `01-product-specification/ACCEPTANCE_CRITERIA.md` | COMPLETE | 100 | 2026-11-16 | FRs, NFRs | Self-reviewed | `237ab58` | Pushed (`main`) | — |
-| `02-vehicle-architecture/VEHICLE_ARCHITECTURE_OVERVIEW.md` | COMPLETE | 100 | 2026-11-16 | 00-foundation | Self-reviewed | Pending commit 3a | Pending | — |
-| `02-vehicle-architecture/VEHICLE_CONFIGURATION_SPECIFICATION.md` | COMPLETE | 100 | 2026-11-16 | Architecture Overview | Self-reviewed | Pending commit 3a | Pending | — |
-| `02-vehicle-architecture/ICE_ARCHITECTURE.md` | COMPLETE | 100 | 2026-11-16 | Config Spec | Self-reviewed | Pending commit 3a | Pending | — |
-| `02-vehicle-architecture/EV_ARCHITECTURE.md` | COMPLETE | 100 | 2026-11-16 | Config Spec | Self-reviewed | Pending commit 3a | Pending | — |
-| `02-vehicle-architecture/DRIVETRAIN_TOPOLOGY.md` | NOT_STARTED | 0 | 2026-11-16 | ICE/EV Arch | Pending | — | — | — |
-| `02-vehicle-architecture/POWER_FLOW_TOPOLOGY.md` | NOT_STARTED | 0 | 2026-11-16 | Drivetrain Topology | Pending | — | — | — |
-| `02-vehicle-architecture/COMPONENT_ANATOMY_SPECIFICATION.md` | NOT_STARTED | 0 | 2026-11-16 | Config Spec | Pending | — | — | — |
-| `02-vehicle-architecture/COMPONENT_RELATIONSHIPS.md` | NOT_STARTED | 0 | 2026-11-16 | Component Anatomy | Pending | — | — | — |
-| `02-vehicle-architecture/SUSPENSION_AND_STEERING_SPECIFICATION.md` | NOT_STARTED | 0 | 2026-11-16 | Component Anatomy | Pending | — | — | — |
-| `02-vehicle-architecture/BRAKING_SYSTEM_SPECIFICATION.md` | NOT_STARTED | 0 | 2026-11-16 | Component Anatomy | Pending | — | — | — |
+| `02-vehicle-architecture/VEHICLE_ARCHITECTURE_OVERVIEW.md` | COMPLETE | 100 | 2026-11-16 | 00-foundation | Self-reviewed | `fd2f163` | Pushed (`main`) | — |
+| `02-vehicle-architecture/VEHICLE_CONFIGURATION_SPECIFICATION.md` | COMPLETE | 100 | 2026-11-16 | Architecture Overview | Self-reviewed | `fd2f163` | Pushed (`main`) | — |
+| `02-vehicle-architecture/ICE_ARCHITECTURE.md` | COMPLETE | 100 | 2026-11-16 | Config Spec | Self-reviewed | `fd2f163` | Pushed (`main`) | — |
+| `02-vehicle-architecture/EV_ARCHITECTURE.md` | COMPLETE | 100 | 2026-11-16 | Config Spec | Self-reviewed | `fd2f163` | Pushed (`main`) | — |
+| `02-vehicle-architecture/DRIVETRAIN_TOPOLOGY.md` | COMPLETE | 100 | 2026-11-16 | ICE/EV Arch | Self-reviewed | Pending commit 3b | Pending | — |
+| `02-vehicle-architecture/POWER_FLOW_TOPOLOGY.md` | COMPLETE | 100 | 2026-11-16 | Drivetrain Topology | Self-reviewed | Pending commit 3b | Pending | — |
+| `02-vehicle-architecture/COMPONENT_ANATOMY_SPECIFICATION.md` | COMPLETE | 100 | 2026-11-16 | Config Spec | Self-reviewed | Pending commit 3b | Pending | — |
+| `02-vehicle-architecture/COMPONENT_RELATIONSHIPS.md` | COMPLETE | 100 | 2026-11-16 | Component Anatomy | Self-reviewed | Pending commit 3b | Pending | — |
+| `02-vehicle-architecture/SUSPENSION_AND_STEERING_SPECIFICATION.md` | COMPLETE | 100 | 2026-11-16 | Component Anatomy | Self-reviewed | Pending commit 3b | Pending | — |
+| `02-vehicle-architecture/BRAKING_SYSTEM_SPECIFICATION.md` | COMPLETE | 100 | 2026-11-16 | Component Anatomy | Self-reviewed | Pending commit 3b | Pending | — |
 | `03-powertrain-engineering/POWERTRAIN_ENGINEERING_OVERVIEW.md` | NOT_STARTED | 0 | 2026-11-16 | 02-vehicle-arch | Pending | — | — | — |
 | `03-powertrain-engineering/ICE_ENGINE_MODEL.md` | NOT_STARTED | 0 | 2026-11-16 | Powertrain Overview | Pending | — | — | — |
 | `03-powertrain-engineering/EV_POWERTRAIN_MODEL.md` | NOT_STARTED | 0 | 2026-11-16 | Powertrain Overview | Pending | — | — | — |
