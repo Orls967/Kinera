@@ -85,3 +85,8 @@ All notable additions, revisions, and audit resolutions to the KINERA Phase 0 do
 
 ### Added
 - All 6 delivery and operations specifications covering the gated Phase 0–7 Implementation Roadmap, Static PWA & Optional FastAPI Deployment Architecture, SemVer Build/Release Process, Environment Configuration, CSP/WASM/API Security Controls, and Non-Breaking V1.1–V2.0 Expansion Paths.
+
+## [0.14.0] - 2026-11-16 — Project Governance Core (`12-project-governance/`)
+
+### Added
+- Core governance artifacts (`REQUIREMENTS_TRACEABILITY_MATRIX.md` tracing all 274 requirements across `KIN-PRD`, `KIN-FR`, `KIN-NFR`, `KIN-VEH`, `KIN-PWT`, `KIN-VDY`, `KIN-SIM`, `KIN-DATA`, `KIN-3D`, `KIN-QA`; `DOCUMENTATION_CROSS_REFERENCE_MATRIX.md`; `RISK_REGISTER.md`; and `DECISION_LOG.md`).
