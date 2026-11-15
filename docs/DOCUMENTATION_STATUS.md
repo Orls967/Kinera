@@ -29,16 +29,16 @@
 | `00-project-foundation/PRODUCT_SCOPE.md` | COMPLETE | 100 | 2026-11-16 | Charter | Self-reviewed | `920bf31` | Pushed (`main`) | — |
 | `00-project-foundation/GLOSSARY.md` | COMPLETE | 100 | 2026-11-16 | Vision | Self-reviewed | `920bf31` | Pushed (`main`) | — |
 | `00-project-foundation/ASSUMPTIONS_AND_CONSTRAINTS.md` | COMPLETE | 100 | 2026-11-16 | PRD, Scope | Self-reviewed | `920bf31` | Pushed (`main`) | — |
-| `01-product-specification/APPLICATION_STRUCTURE.md` | COMPLETE | 100 | 2026-11-16 | PRD | Self-reviewed | Pending commit 2 | Pending | — |
-| `01-product-specification/USER_PERSONAS_AND_JOURNEYS.md` | COMPLETE | 100 | 2026-11-16 | App Structure | Self-reviewed | Pending commit 2 | Pending | — |
-| `01-product-specification/FUNCTIONAL_REQUIREMENTS.md` | COMPLETE | 100 | 2026-11-16 | PRD, App Structure | Self-reviewed | Pending commit 2 | Pending | — |
-| `01-product-specification/NON_FUNCTIONAL_REQUIREMENTS.md` | COMPLETE | 100 | 2026-11-16 | PRD, Constraints | Self-reviewed | Pending commit 2 | Pending | — |
-| `01-product-specification/FEATURE_SPECIFICATIONS.md` | COMPLETE | 100 | 2026-11-16 | FRs | Self-reviewed | Pending commit 2 | Pending | — |
-| `01-product-specification/ACCEPTANCE_CRITERIA.md` | COMPLETE | 100 | 2026-11-16 | FRs, NFRs | Self-reviewed | Pending commit 2 | Pending | — |
-| `02-vehicle-architecture/VEHICLE_ARCHITECTURE_OVERVIEW.md` | NOT_STARTED | 0 | 2026-11-16 | 00-foundation | Pending | — | — | — |
-| `02-vehicle-architecture/VEHICLE_CONFIGURATION_SPECIFICATION.md` | NOT_STARTED | 0 | 2026-11-16 | Architecture Overview | Pending | — | — | — |
-| `02-vehicle-architecture/ICE_ARCHITECTURE.md` | NOT_STARTED | 0 | 2026-11-16 | Config Spec | Pending | — | — | — |
-| `02-vehicle-architecture/EV_ARCHITECTURE.md` | NOT_STARTED | 0 | 2026-11-16 | Config Spec | Pending | — | — | — |
+| `01-product-specification/APPLICATION_STRUCTURE.md` | COMPLETE | 100 | 2026-11-16 | PRD | Self-reviewed | `237ab58` | Pushed (`main`) | — |
+| `01-product-specification/USER_PERSONAS_AND_JOURNEYS.md` | COMPLETE | 100 | 2026-11-16 | App Structure | Self-reviewed | `237ab58` | Pushed (`main`) | — |
+| `01-product-specification/FUNCTIONAL_REQUIREMENTS.md` | COMPLETE | 100 | 2026-11-16 | PRD, App Structure | Self-reviewed | `237ab58` | Pushed (`main`) | — |
+| `01-product-specification/NON_FUNCTIONAL_REQUIREMENTS.md` | COMPLETE | 100 | 2026-11-16 | PRD, Constraints | Self-reviewed | `237ab58` | Pushed (`main`) | — |
+| `01-product-specification/FEATURE_SPECIFICATIONS.md` | COMPLETE | 100 | 2026-11-16 | FRs | Self-reviewed | `237ab58` | Pushed (`main`) | — |
+| `01-product-specification/ACCEPTANCE_CRITERIA.md` | COMPLETE | 100 | 2026-11-16 | FRs, NFRs | Self-reviewed | `237ab58` | Pushed (`main`) | — |
+| `02-vehicle-architecture/VEHICLE_ARCHITECTURE_OVERVIEW.md` | COMPLETE | 100 | 2026-11-16 | 00-foundation | Self-reviewed | Pending commit 3a | Pending | — |
+| `02-vehicle-architecture/VEHICLE_CONFIGURATION_SPECIFICATION.md` | COMPLETE | 100 | 2026-11-16 | Architecture Overview | Self-reviewed | Pending commit 3a | Pending | — |
+| `02-vehicle-architecture/ICE_ARCHITECTURE.md` | COMPLETE | 100 | 2026-11-16 | Config Spec | Self-reviewed | Pending commit 3a | Pending | — |
+| `02-vehicle-architecture/EV_ARCHITECTURE.md` | COMPLETE | 100 | 2026-11-16 | Config Spec | Self-reviewed | Pending commit 3a | Pending | — |
 | `02-vehicle-architecture/DRIVETRAIN_TOPOLOGY.md` | NOT_STARTED | 0 | 2026-11-16 | ICE/EV Arch | Pending | — | — | — |
 | `02-vehicle-architecture/POWER_FLOW_TOPOLOGY.md` | NOT_STARTED | 0 | 2026-11-16 | Drivetrain Topology | Pending | — | — | — |
 | `02-vehicle-architecture/COMPONENT_ANATOMY_SPECIFICATION.md` | NOT_STARTED | 0 | 2026-11-16 | Config Spec | Pending | — | — | — |

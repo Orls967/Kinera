@@ -19,3 +19,8 @@ All notable additions, revisions, and audit resolutions to the KINERA Phase 0 do
 
 ### Added
 - `APPLICATION_STRUCTURE.md`, `USER_PERSONAS_AND_JOURNEYS.md`, `FUNCTIONAL_REQUIREMENTS.md` (`KIN-FR-001`–`KIN-FR-048`), `NON_FUNCTIONAL_REQUIREMENTS.md` (`KIN-NFR-001`–`KIN-NFR-022`), `FEATURE_SPECIFICATIONS.md`, and `ACCEPTANCE_CRITERIA.md` (`AC-001`–`AC-022`).
+
+## [0.4.0] - 2026-11-16 — Vehicle Architecture Core (`02-vehicle-architecture/` part 1)
+
+### Added
+- `VEHICLE_ARCHITECTURE_OVERVIEW.md`, `VEHICLE_CONFIGURATION_SPECIFICATION.md`, `ICE_ARCHITECTURE.md`, and `EV_ARCHITECTURE.md` specifying all 7 canonical V1 vehicle configurations (`ICE-FWD`, `ICE-RWD`, `ICE-AWD`, `ICE-4WD`, `EV-FWD`, `EV-RWD`, `EV-DUAL-AWD`).
