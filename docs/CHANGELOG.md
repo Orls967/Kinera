@@ -54,3 +54,8 @@ All notable additions, revisions, and audit resolutions to the KINERA Phase 0 do
 
 ### Added
 - All 8 simulation engine specifications covering shared topology solver, lifecycle state machine, configuration comparison, RK4 numerical stability, and all 19 edge cases (`KIN-SIM-001`–`KIN-SIM-030`).
+
+## [0.8.0] - 2026-11-16 — Software Architecture (`06-software-architecture/`)
+
+### Added
+- All 9 software architecture documents covering React/TypeScript/Three.js frontend, optional FastAPI backend, Rust/WASM crate ABI, Web Worker protocol, offline-first PWA, Zustand stores, and `ADR-001`–`ADR-007`.

@@ -59,23 +59,23 @@
 | `04-vehicle-dynamics/WEIGHT_TRANSFER_MODEL.md` | COMPLETE | 100 | 2026-11-16 | Longitudinal, Lateral | Self-reviewed | `7a838e0` | Pushed (`main`) | — |
 | `04-vehicle-dynamics/TIRE_TRACTION_AND_FRICTION_MODEL.md` | COMPLETE | 100 | 2026-11-16 | Weight Transfer | Self-reviewed | `7a838e0` | Pushed (`main`) | — |
 | `04-vehicle-dynamics/VEHICLE_PERFORMANCE_ANALYSIS.md` | COMPLETE | 100 | 2026-11-16 | 03 & 04 models | Self-reviewed | `7a838e0` | Pushed (`main`) | — |
-| `05-simulation-engine/SIMULATION_ARCHITECTURE.md` | COMPLETE | 100 | 2026-11-16 | 03 & 04 models | Self-reviewed | Pending commit 6 | Pending | — |
-| `05-simulation-engine/SIMULATION_ENGINE_SPECIFICATION.md` | COMPLETE | 100 | 2026-11-16 | Sim Architecture | Self-reviewed | Pending commit 6 | Pending | — |
-| `05-simulation-engine/POWERTRAIN_SIMULATION_SPECIFICATION.md` | COMPLETE | 100 | 2026-11-16 | 03-powertrain | Self-reviewed | Pending commit 6 | Pending | — |
-| `05-simulation-engine/VEHICLE_DYNAMICS_SIMULATION_SPECIFICATION.md` | COMPLETE | 100 | 2026-11-16 | 04-vehicle-dynamics | Self-reviewed | Pending commit 6 | Pending | — |
-| `05-simulation-engine/CONFIGURATION_COMPARISON_SPECIFICATION.md` | COMPLETE | 100 | 2026-11-16 | Sim Specs | Self-reviewed | Pending commit 6 | Pending | — |
-| `05-simulation-engine/SIMULATION_STATE_AND_LIFECYCLE.md` | COMPLETE | 100 | 2026-11-16 | Sim Engine Spec | Self-reviewed | Pending commit 6 | Pending | — |
-| `05-simulation-engine/NUMERICAL_METHODS_AND_STABILITY.md` | COMPLETE | 100 | 2026-11-16 | 04-vehicle-dynamics | Self-reviewed | Pending commit 6 | Pending | — |
-| `05-simulation-engine/SIMULATION_ERROR_HANDLING.md` | COMPLETE | 100 | 2026-11-16 | Numerical Methods | Self-reviewed | Pending commit 6 | Pending | — |
-| `06-software-architecture/SYSTEM_ARCHITECTURE.md` | NOT_STARTED | 0 | 2026-11-16 | 01, 05 specs | Pending | — | — | — |
-| `06-software-architecture/FRONTEND_ARCHITECTURE.md` | NOT_STARTED | 0 | 2026-11-16 | System Arch | Pending | — | — | — |
-| `06-software-architecture/BACKEND_ARCHITECTURE.md` | NOT_STARTED | 0 | 2026-11-16 | System Arch | Pending | — | — | — |
-| `06-software-architecture/RUST_WASM_ARCHITECTURE.md` | NOT_STARTED | 0 | 2026-11-16 | 05-simulation | Pending | — | — | — |
-| `06-software-architecture/WORKER_COMMUNICATION.md` | NOT_STARTED | 0 | 2026-11-16 | Rust/WASM Arch | Pending | — | — | — |
-| `06-software-architecture/DATA_FLOW.md` | NOT_STARTED | 0 | 2026-11-16 | Frontend, Worker | Pending | — | — | — |
-| `06-software-architecture/OFFLINE_FIRST_ARCHITECTURE.md` | NOT_STARTED | 0 | 2026-11-16 | System Arch | Pending | — | — | — |
-| `06-software-architecture/STATE_MANAGEMENT.md` | NOT_STARTED | 0 | 2026-11-16 | Frontend Arch | Pending | — | — | — |
-| `06-software-architecture/TECHNOLOGY_DECISIONS.md` | NOT_STARTED | 0 | 2026-11-16 | System Arch | Pending | — | — | — |
+| `05-simulation-engine/SIMULATION_ARCHITECTURE.md` | COMPLETE | 100 | 2026-11-16 | 03 & 04 models | Self-reviewed | `870ed1a` | Pushed (`main`) | — |
+| `05-simulation-engine/SIMULATION_ENGINE_SPECIFICATION.md` | COMPLETE | 100 | 2026-11-16 | Sim Architecture | Self-reviewed | `870ed1a` | Pushed (`main`) | — |
+| `05-simulation-engine/POWERTRAIN_SIMULATION_SPECIFICATION.md` | COMPLETE | 100 | 2026-11-16 | 03-powertrain | Self-reviewed | `870ed1a` | Pushed (`main`) | — |
+| `05-simulation-engine/VEHICLE_DYNAMICS_SIMULATION_SPECIFICATION.md` | COMPLETE | 100 | 2026-11-16 | 04-vehicle-dynamics | Self-reviewed | `870ed1a` | Pushed (`main`) | — |
+| `05-simulation-engine/CONFIGURATION_COMPARISON_SPECIFICATION.md` | COMPLETE | 100 | 2026-11-16 | Sim Specs | Self-reviewed | `870ed1a` | Pushed (`main`) | — |
+| `05-simulation-engine/SIMULATION_STATE_AND_LIFECYCLE.md` | COMPLETE | 100 | 2026-11-16 | Sim Engine Spec | Self-reviewed | `870ed1a` | Pushed (`main`) | — |
+| `05-simulation-engine/NUMERICAL_METHODS_AND_STABILITY.md` | COMPLETE | 100 | 2026-11-16 | 04-vehicle-dynamics | Self-reviewed | `870ed1a` | Pushed (`main`) | — |
+| `05-simulation-engine/SIMULATION_ERROR_HANDLING.md` | COMPLETE | 100 | 2026-11-16 | Numerical Methods | Self-reviewed | `870ed1a` | Pushed (`main`) | — |
+| `06-software-architecture/SYSTEM_ARCHITECTURE.md` | COMPLETE | 100 | 2026-11-16 | 01, 05 specs | Self-reviewed | Pending commit 7 | Pending | — |
+| `06-software-architecture/FRONTEND_ARCHITECTURE.md` | COMPLETE | 100 | 2026-11-16 | System Arch | Self-reviewed | Pending commit 7 | Pending | — |
+| `06-software-architecture/BACKEND_ARCHITECTURE.md` | COMPLETE | 100 | 2026-11-16 | System Arch | Self-reviewed | Pending commit 7 | Pending | — |
+| `06-software-architecture/RUST_WASM_ARCHITECTURE.md` | COMPLETE | 100 | 2026-11-16 | 05-simulation | Self-reviewed | Pending commit 7 | Pending | — |
+| `06-software-architecture/WORKER_COMMUNICATION.md` | COMPLETE | 100 | 2026-11-16 | Rust/WASM Arch | Self-reviewed | Pending commit 7 | Pending | — |
+| `06-software-architecture/DATA_FLOW.md` | COMPLETE | 100 | 2026-11-16 | Frontend, Worker | Self-reviewed | Pending commit 7 | Pending | — |
+| `06-software-architecture/OFFLINE_FIRST_ARCHITECTURE.md` | COMPLETE | 100 | 2026-11-16 | System Arch | Self-reviewed | Pending commit 7 | Pending | — |
+| `06-software-architecture/STATE_MANAGEMENT.md` | COMPLETE | 100 | 2026-11-16 | Frontend Arch | Self-reviewed | Pending commit 7 | Pending | — |
+| `06-software-architecture/TECHNOLOGY_DECISIONS.md` | COMPLETE | 100 | 2026-11-16 | System Arch | Self-reviewed | Pending commit 7 | Pending | — |
 | `07-data-and-contracts/DATA_MODEL.md` | NOT_STARTED | 0 | 2026-11-16 | 02, 05, 06 | Pending | — | — | — |
 | `07-data-and-contracts/CANONICAL_ID_REGISTRY.md` | NOT_STARTED | 0 | 2026-11-16 | 02, 03, 04 | Pending | — | — | — |
 | `07-data-and-contracts/VEHICLE_CONFIGURATION_SCHEMA.md` | NOT_STARTED | 0 | 2026-11-16 | Data Model | Pending | — | — | — |
