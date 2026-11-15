@@ -59,3 +59,9 @@ All notable additions, revisions, and audit resolutions to the KINERA Phase 0 do
 
 ### Added
 - All 9 software architecture documents covering React/TypeScript/Three.js frontend, optional FastAPI backend, Rust/WASM crate ABI, Web Worker protocol, offline-first PWA, Zustand stores, and `ADR-001`–`ADR-007`.
+
+## [0.9.0] - 2026-11-16 — Data Model, Canonical IDs, Contracts & Schemas (`07-data-and-contracts/` & `schemas/`)
+
+### Added
+- All 8 data/contract specs covering all 27 domain entities, canonical ID registry, simulation contracts, error contracts, and SemVer rules (`KIN-DATA-001`–`KIN-DATA-025`).
+- All 5 Draft 2020-12 JSON Schemas in `docs/schemas/`.

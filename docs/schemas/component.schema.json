@@ -1,0 +1,151 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "https://kinera.dev/schemas/1.0.0/component.schema.json",
+  "title": "KINERA Component Metadata Schema",
+  "description": "Metadata contract for inspectable automotive components across all seven KINERA vehicle configurations.",
+  "type": "object",
+  "additionalProperties": false,
+  "required": [
+    "id",
+    "schemaVersion",
+    "name",
+    "kind",
+    "category",
+    "subsystemId",
+    "vehicleConfigurations",
+    "description",
+    "primaryFunction",
+    "operatingPrinciple",
+    "inputs",
+    "outputs",
+    "technicalSpecifications",
+    "relationships",
+    "assetReferences",
+    "engineeringReferences"
+  ],
+  "properties": {
+    "id": { "$ref": "#/$defs/CanonicalId" },
+    "schemaVersion": {
+      "type": "string",
+      "pattern": "^[0-9]+\\.[0-9]+\\.[0-9]+$"
+    },
+    "name": { "type": "string", "minLength": 2 },
+    "kind": {
+      "type": "string",
+      "enum": ["physical", "logical_subsystem", "assembly", "instance"]
+    },
+    "category": { "type": "string", "minLength": 2 },
+    "subsystemId": { "$ref": "#/$defs/CanonicalId" },
+    "vehicleConfigurations": {
+      "type": "array",
+      "minItems": 1,
+      "uniqueItems": true,
+      "items": { "$ref": "#/$defs/CanonicalId" }
+    },
+    "description": { "type": "string", "minLength": 10 },
+    "primaryFunction": { "type": "string", "minLength": 5 },
+    "operatingPrinciple": { "type": "string", "minLength": 10 },
+    "inputs": {
+      "type": "array",
+      "items": { "$ref": "#/$defs/PortSpec" }
+    },
+    "outputs": {
+      "type": "array",
+      "items": { "$ref": "#/$defs/PortSpec" }
+    },
+    "physicalProperties": {
+      "type": ["object", "null"],
+      "additionalProperties": { "$ref": "#/$defs/ValueWithUnit" }
+    },
+    "technicalSpecifications": {
+      "type": "object",
+      "additionalProperties": {
+        "oneOf": [
+          { "$ref": "#/$defs/ValueWithUnit" },
+          { "type": "string" },
+          { "type": "null" }
+        ]
+      }
+    },
+    "relationships": {
+      "type": "array",
+      "items": {
+        "type": "object",
+        "additionalProperties": false,
+        "required": [
+          "id",
+          "sourceId",
+          "targetId",
+          "relationshipType",
+          "vehicleConfigurations",
+          "transferredQuantity",
+          "bidirectional"
+        ],
+        "properties": {
+          "id": { "type": "string", "minLength": 2 },
+          "sourceId": { "$ref": "#/$defs/CanonicalId" },
+          "targetId": { "$ref": "#/$defs/CanonicalId" },
+          "relationshipType": {
+            "type": "string",
+            "enum": [
+              "mechanical_drive",
+              "structural_mount",
+              "electrical_hv_dc",
+              "electrical_ac_phase",
+              "control_signal",
+              "hydraulic_pressure",
+              "tire_road_contact"
+            ]
+          },
+          "vehicleConfigurations": {
+            "type": "array",
+            "minItems": 1,
+            "items": { "$ref": "#/$defs/CanonicalId" }
+          },
+          "transferredQuantity": { "type": "string", "minLength": 2 },
+          "bidirectional": { "type": "boolean" }
+        }
+      }
+    },
+    "assetReferences": {
+      "type": "array",
+      "minItems": 1,
+      "items": { "$ref": "#/$defs/CanonicalId" }
+    },
+    "animationReferences": {
+      "type": "array",
+      "items": { "$ref": "#/$defs/CanonicalId" }
+    },
+    "engineeringReferences": {
+      "type": "array",
+      "minItems": 1,
+      "items": { "$ref": "#/$defs/CanonicalId" }
+    }
+  },
+  "$defs": {
+    "CanonicalId": {
+      "type": "string",
+      "pattern": "^[a-z][a-z0-9-]*(\\.[a-z0-9][a-z0-9-]*){2,4}$"
+    },
+    "ValueWithUnit": {
+      "type": "object",
+      "additionalProperties": false,
+      "required": ["value", "unit"],
+      "properties": {
+        "value": { "type": "number" },
+        "unit": { "type": "string", "minLength": 1 }
+      }
+    },
+    "PortSpec": {
+      "type": "object",
+      "additionalProperties": false,
+      "required": ["quantity", "unit"],
+      "properties": {
+        "quantity": { "type": "string", "minLength": 1 },
+        "unit": { "type": "string", "minLength": 1 },
+        "sourceId": { "$ref": "#/$defs/CanonicalId" },
+        "targetId": { "$ref": "#/$defs/CanonicalId" }
+      }
+    }
+  }
+}

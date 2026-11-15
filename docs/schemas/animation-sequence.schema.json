@@ -1,0 +1,84 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "https://kinera.dev/schemas/1.0.0/animation-sequence.schema.json",
+  "title": "KINERA AnimationSequence Schema",
+  "description": "Declarative timeline schema for Cinematic Vehicle Experience, Guided Engineering Inspection, and Powertrain Journey sequences.",
+  "type": "object",
+  "additionalProperties": false,
+  "required": [
+    "id",
+    "schemaVersion",
+    "title",
+    "category",
+    "vehicleConfigurations",
+    "durationSec",
+    "steps"
+  ],
+  "properties": {
+    "id": {
+      "type": "string",
+      "pattern": "^[a-z][a-z0-9-]*(\\.[a-z0-9][a-z0-9-]*){2,4}$"
+    },
+    "schemaVersion": {
+      "type": "string",
+      "pattern": "^[0-9]+\\.[0-9]+\\.[0-9]+$"
+    },
+    "title": { "type": "string", "minLength": 3 },
+    "category": {
+      "type": "string",
+      "enum": ["cinematic", "journey", "inspection"]
+    },
+    "vehicleConfigurations": {
+      "type": "array",
+      "minItems": 1,
+      "items": {
+        "type": "string",
+        "pattern": "^[a-z][a-z0-9-]*(\\.[a-z0-9][a-z0-9-]*){2,4}$"
+      }
+    },
+    "durationSec": { "type": "number", "exclusiveMinimum": 0 },
+    "supportsReverseRegen": { "type": "boolean" },
+    "steps": {
+      "type": "array",
+      "minItems": 1,
+      "items": {
+        "type": "object",
+        "additionalProperties": false,
+        "required": [
+          "stepIndex",
+          "id",
+          "label",
+          "startTimeSec",
+          "endTimeSec",
+          "targetComponentIds",
+          "educationalPurpose"
+        ],
+        "properties": {
+          "stepIndex": { "type": "integer", "minimum": 0 },
+          "id": { "type": "string", "minLength": 2 },
+          "label": { "type": "string", "minLength": 2 },
+          "startTimeSec": { "type": "number", "minimum": 0 },
+          "endTimeSec": { "type": "number", "exclusiveMinimum": 0 },
+          "targetComponentIds": {
+            "type": "array",
+            "minItems": 1,
+            "items": {
+              "type": "string",
+              "pattern": "^[a-z][a-z0-9-]*(\\.[a-z0-9][a-z0-9-]*){2,4}$"
+            }
+          },
+          "cameraPresetId": { "type": ["string", "null"] },
+          "flowMode": {
+            "type": ["string", "null"],
+            "enum": ["chemical", "mechanical", "electrical_dc", "electrical_ac", "regen", null]
+          },
+          "educationalPurpose": { "type": "string", "minLength": 5 },
+          "dependsOnStepIds": {
+            "type": "array",
+            "items": { "type": "string" }
+          }
+        }
+      }
+    }
+  }
+}

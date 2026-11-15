@@ -1,0 +1,116 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "https://kinera.dev/schemas/1.0.0/simulation-input.schema.json",
+  "title": "KINERA SimulationInput Schema",
+  "description": "Strict SI simulation input contract sent from Frontend/Worker to the Rust/WASM simulation engine.",
+  "type": "object",
+  "additionalProperties": false,
+  "required": [
+    "schemaVersion",
+    "mode",
+    "configurationIds",
+    "driverInputs",
+    "environment",
+    "solverConfig"
+  ],
+  "properties": {
+    "schemaVersion": {
+      "type": "string",
+      "pattern": "^[0-9]+\\.[0-9]+\\.[0-9]+$"
+    },
+    "mode": {
+      "type": "string",
+      "enum": [
+        "single_point_powertrain",
+        "time_series_dynamics",
+        "performance_benchmark",
+        "multi_config_comparison"
+      ]
+    },
+    "configurationIds": {
+      "type": "array",
+      "minItems": 1,
+      "maxItems": 7,
+      "uniqueItems": true,
+      "items": {
+        "type": "string",
+        "pattern": "^[a-z][a-z0-9-]*(\\.[a-z0-9][a-z0-9-]*){2,4}$"
+      }
+    },
+    "parameterOverrides": {
+      "type": "object",
+      "additionalProperties": false,
+      "properties": {
+        "massKg": { "type": "number", "minimum": 100, "maximum": 50000 },
+        "dragCoefficient": { "type": "number", "minimum": 0.1, "maximum": 1.5 },
+        "frontalAreaM2": { "type": "number", "minimum": 0.5, "maximum": 12.0 },
+        "rollingResistanceCoeff": { "type": "number", "minimum": 0.0, "maximum": 0.15 },
+        "tireEffectiveRadiusM": { "type": "number", "minimum": 0.15, "maximum": 0.8 },
+        "cgHeightM": { "type": "number", "minimum": 0.1, "maximum": 2.5 },
+        "wheelbaseM": { "type": "number", "minimum": 0.5, "maximum": 10.0 },
+        "trackWidthM": { "type": "number", "minimum": 0.5, "maximum": 4.0 },
+        "cgToFrontAxleM": { "type": "number", "minimum": 0.1 },
+        "yawInertiaKgM2": { "type": "number", "minimum": 100 },
+        "frontAxleCorneringStiffnessNPerRad": { "type": "number", "minimum": 5000 },
+        "rearAxleCorneringStiffnessNPerRad": { "type": "number", "minimum": 5000 },
+        "finalDriveRatio": { "type": "number", "minimum": 0.5, "maximum": 20.0 },
+        "aggregateEfficiencyOverride": { "type": ["number", "null"], "exclusiveMinimum": 0.05, "maximum": 1.0 },
+        "batteryVoltageV": { "type": "number", "minimum": 48, "maximum": 1200 },
+        "frontBrakeBias": { "type": "number", "exclusiveMinimum": 0.0, "exclusiveMaximum": 1.0 }
+      }
+    },
+    "driverInputs": {
+      "type": "object",
+      "additionalProperties": false,
+      "required": [
+        "throttle",
+        "brakeDemand",
+        "steeringAngleRad",
+        "gearIndex",
+        "diffMode"
+      ],
+      "properties": {
+        "throttle": { "type": "number", "minimum": 0.0, "maximum": 1.0 },
+        "brakeDemand": { "type": "number", "minimum": 0.0, "maximum": 1.0 },
+        "steeringAngleRad": { "type": "number", "minimum": -0.785398, "maximum": 0.785398 },
+        "gearIndex": { "type": "integer", "minimum": -1, "maximum": 6 },
+        "primeMoverRpm": { "type": ["number", "null"], "minimum": 0, "maximum": 25000 },
+        "fourWdMode": { "type": ["string", "null"], "enum": ["2H", "4H", "4L", null] },
+        "diffMode": {
+          "type": "string",
+          "enum": ["open", "lsd", "locked", "center_diff", "ev_electronic"]
+        },
+        "evFrontSplit": { "type": ["number", "null"], "minimum": 0.0, "maximum": 1.0 }
+      }
+    },
+    "environment": {
+      "type": "object",
+      "additionalProperties": false,
+      "required": ["roadGradeRad", "airDensityKgM3", "wheelMu", "gravityMps2"],
+      "properties": {
+        "roadGradeRad": { "type": "number", "minimum": -0.5236, "maximum": 0.5236 },
+        "airDensityKgM3": { "type": "number", "minimum": 0.5, "maximum": 1.6 },
+        "wheelMu": {
+          "type": "array",
+          "minItems": 4,
+          "maxItems": 4,
+          "items": { "type": "number", "minimum": 0.0, "maximum": 1.5 }
+        },
+        "gravityMps2": { "type": "number", "minimum": 1.0, "maximum": 20.0 }
+      }
+    },
+    "solverConfig": {
+      "type": "object",
+      "additionalProperties": false,
+      "required": ["dtSec", "durationSec", "matchedBaselineLock"],
+      "properties": {
+        "dtSec": { "type": "number", "minimum": 0.001, "maximum": 0.05 },
+        "durationSec": { "type": "number", "minimum": 0.01, "maximum": 300.0 },
+        "initialSpeedMps": { "type": "number", "minimum": 0.0, "maximum": 120.0 },
+        "initialSoc": { "type": "number", "minimum": 0.0, "maximum": 1.0 },
+        "absConceptualEnabled": { "type": "boolean" },
+        "matchedBaselineLock": { "type": "boolean" }
+      }
+    }
+  }
+}

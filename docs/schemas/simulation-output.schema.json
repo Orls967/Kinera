@@ -1,0 +1,149 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "https://kinera.dev/schemas/1.0.0/simulation-output.schema.json",
+  "title": "KINERA SimulationOutput Schema",
+  "description": "Deterministic SI output contract returned from the Rust/WASM simulation engine.",
+  "type": "object",
+  "additionalProperties": false,
+  "required": [
+    "schemaVersion",
+    "engineVersion",
+    "modelFidelityTag",
+    "status",
+    "simulatedEstimateDisclaimer",
+    "summaryMetrics",
+    "warnings"
+  ],
+  "properties": {
+    "schemaVersion": {
+      "type": "string",
+      "pattern": "^[0-9]+\\.[0-9]+\\.[0-9]+$"
+    },
+    "engineVersion": { "type": "string", "minLength": 1 },
+    "modelFidelityTag": { "type": "string", "const": "kinera-v1-educational" },
+    "status": { "type": "string", "enum": ["OK", "ERROR"] },
+    "simulatedEstimateDisclaimer": { "type": "string", "minLength": 10 },
+    "summaryMetrics": {
+      "type": "object",
+      "additionalProperties": {
+        "type": "object",
+        "additionalProperties": false,
+        "required": ["value", "unit"],
+        "properties": {
+          "value": { "type": "number" },
+          "unit": { "type": "string", "minLength": 1 }
+        }
+      }
+    },
+    "powertrainSnapshot": {
+      "type": ["object", "null"],
+      "additionalProperties": false,
+      "required": [
+        "configurationId",
+        "primeMoverRpm",
+        "primeMoverOmegaRadS",
+        "axleTorquesNm",
+        "wheelTorquesNm",
+        "wheelRpm",
+        "tractiveForceTotalN",
+        "powerLossesW",
+        "overallEfficiency"
+      ],
+      "properties": {
+        "configurationId": {
+          "type": "string",
+          "pattern": "^[a-z][a-z0-9-]*(\\.[a-z0-9][a-z0-9-]*){2,4}$"
+        },
+        "primeMoverRpm": { "type": "number", "minimum": 0 },
+        "primeMoverOmegaRadS": { "type": "number", "minimum": 0 },
+        "gearboxOutputTorqueNm": { "type": ["number", "null"] },
+        "driveshaftRpm": { "type": ["number", "null"] },
+        "axleTorquesNm": {
+          "type": "array",
+          "minItems": 2,
+          "maxItems": 2,
+          "items": { "type": "number" }
+        },
+        "wheelTorquesNm": {
+          "type": "array",
+          "minItems": 4,
+          "maxItems": 4,
+          "items": { "type": "number" }
+        },
+        "wheelRpm": {
+          "type": "array",
+          "minItems": 4,
+          "maxItems": 4,
+          "items": { "type": "number" }
+        },
+        "tractiveForceTotalN": { "type": "number" },
+        "powerLossesW": { "type": "number", "minimum": 0 },
+        "overallEfficiency": { "type": "number", "minimum": 0, "maximum": 1.0 },
+        "batteryPowerW": { "type": ["number", "null"] },
+        "batteryCurrentA": { "type": ["number", "null"] }
+      }
+    },
+    "timeSeries": {
+      "type": ["array", "null"],
+      "items": {
+        "type": "object",
+        "additionalProperties": false,
+        "required": [
+          "timeSec",
+          "speedMps",
+          "distanceM",
+          "accelLongMps2",
+          "accelLatMps2",
+          "yawRateRadS",
+          "sideslipRad",
+          "worldXM",
+          "worldYM",
+          "wheelNormalLoadsN"
+        ],
+        "properties": {
+          "timeSec": { "type": "number", "minimum": 0 },
+          "speedMps": { "type": "number" },
+          "distanceM": { "type": "number" },
+          "accelLongMps2": { "type": "number" },
+          "accelLatMps2": { "type": "number" },
+          "yawRateRadS": { "type": "number" },
+          "sideslipRad": { "type": "number" },
+          "worldXM": { "type": "number" },
+          "worldYM": { "type": "number" },
+          "wheelNormalLoadsN": {
+            "type": "array",
+            "minItems": 4,
+            "maxItems": 4,
+            "items": { "type": "number", "minimum": 0 }
+          },
+          "soc": { "type": ["number", "null"], "minimum": 0, "maximum": 1.0 }
+        }
+      }
+    },
+    "comparisonDiffs": {
+      "type": ["array", "null"],
+      "items": {
+        "type": "object",
+        "additionalProperties": false,
+        "required": ["parameterName", "status"],
+        "properties": {
+          "parameterName": { "type": "string" },
+          "status": { "type": "string", "enum": ["MATCHED", "DIFFERENT"] },
+          "valuesByConfig": { "type": "object" }
+        }
+      }
+    },
+    "warnings": {
+      "type": "array",
+      "items": {
+        "type": "object",
+        "additionalProperties": false,
+        "required": ["code", "message"],
+        "properties": {
+          "code": { "type": "string" },
+          "message": { "type": "string" }
+        }
+      }
+    }
+  }
+}
