@@ -21,8 +21,8 @@
 | :--- | :--- | :---: | :--- | :--- | :--- | :--- | :--- | :--- |
 | `docs/README.md` | COMPLETE | 100 | 2026-11-16 | Pre-flight | Self-reviewed | `334f913` | Pushed (`main`) | — |
 | `docs/DOCUMENTATION_INDEX.md` | COMPLETE | 100 | 2026-11-16 | `docs/README.md` | Self-reviewed | `334f913` | Pushed (`main`) | — |
-| `docs/DOCUMENTATION_STATUS.md` | IN_PROGRESS | 100 | 2026-11-16 | Active tracker | Living doc | Active | Pushed incrementally | Updated per commit unit |
-| `docs/CHANGELOG.md` | IN_PROGRESS | 100 | 2026-11-16 | Living log | Living doc | Active | Pushed incrementally | Updated per commit unit |
+| `docs/DOCUMENTATION_STATUS.md` | COMPLETE | 100 | 2026-11-16 | Active tracker | Self-reviewed | Final Phase 0 commit | Pushed (`main`) | — |
+| `docs/CHANGELOG.md` | COMPLETE | 100 | 2026-11-16 | Living log | Self-reviewed | Final Phase 0 commit | Pushed (`main`) | — |
 | `00-project-foundation/PROJECT_CHARTER.md` | COMPLETE | 100 | 2026-11-16 | Pre-flight | Self-reviewed | `920bf31` | Pushed (`main`) | — |
 | `00-project-foundation/PRODUCT_VISION.md` | COMPLETE | 100 | 2026-11-16 | Charter | Self-reviewed | `920bf31` | Pushed (`main`) | — |
 | `00-project-foundation/PRODUCT_REQUIREMENTS_DOCUMENT.md` | COMPLETE | 100 | 2026-11-16 | Vision, Scope | Self-reviewed | `920bf31` | Pushed (`main`) | — |
@@ -117,8 +117,8 @@
 | `12-project-governance/DOCUMENTATION_CROSS_REFERENCE_MATRIX.md` | COMPLETE | 100 | 2026-11-16 | All specs | Self-reviewed | `4411243` | Pushed (`main`) | — |
 | `12-project-governance/RISK_REGISTER.md` | COMPLETE | 100 | 2026-11-16 | All specs | Self-reviewed | `4411243` | Pushed (`main`) | — |
 | `12-project-governance/DECISION_LOG.md` | COMPLETE | 100 | 2026-11-16 | Locked decisions | Self-reviewed | `4411243` | Pushed (`main`) | — |
-| `12-project-governance/DOCUMENTATION_AUDIT_REPORT.md` | NOT_STARTED | 0 | 2026-11-16 | Full audit | Pending | — | — | — |
-| `12-project-governance/PHASE_0_COMPLETION_REPORT.md` | NOT_STARTED | 0 | 2026-11-16 | Audit report | Pending | — | — | — |
+| `12-project-governance/DOCUMENTATION_AUDIT_REPORT.md` | COMPLETE | 100 | 2026-11-16 | Full audit | Self-reviewed | Final Phase 0 commit | Pushed (`main`) | — |
+| `12-project-governance/PHASE_0_COMPLETION_REPORT.md` | COMPLETE | 100 | 2026-11-16 | Audit report | Self-reviewed | Final Phase 0 commit | Pushed (`main`) | — |
 | `schemas/vehicle-configuration.schema.json` | COMPLETE | 100 | 2026-11-16 | 07-data | JSON validated | `0f3d2f7` | Pushed (`main`) | — |
 | `schemas/component.schema.json` | COMPLETE | 100 | 2026-11-16 | 07-data | JSON validated | `0f3d2f7` | Pushed (`main`) | — |
 | `schemas/simulation-input.schema.json` | COMPLETE | 100 | 2026-11-16 | 07-data | JSON validated | `0f3d2f7` | Pushed (`main`) | — |

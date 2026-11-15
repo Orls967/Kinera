@@ -95,4 +95,9 @@ All notable additions, revisions, and audit resolutions to the KINERA Phase 0 do
 
 ### Added / Fixed
 - Added `docs/scripts/audit_phase0.py` verifying file inventory, Draft 2020-12 JSON Schemas, relative markdown links, `REQUIREMENTS_TRACEABILITY_MATRIX.md` 100% coverage, canonical ID/equation/reference consistency, and 24 numerical math benchmarks.
-- Fixed broken relative PRD links in `FUNCTIONAL_REQUIREMENTS.md` and `NON_FUNCTIONAL_REQUIREMENTS.md`, corrected header ID range typos (`KIN-NFR-024` -> `KIN-NFR-022`, `AC-028` -> `AC-022`), aligned schema names to `docs/schemas/*.schema.json` across QA/Roadmap/RTM docs, and linked `3D_ASSET_SPECIFICATION.md` in `CANONICAL_ID_REGISTRY.md` Section 4.9.
+- Fixed broken relative PRD links in `FUNCTIONAL_REQUIREMENTS.md` and `NON_FUNCTIONAL_REQUIREMENTS.md`, corrected header upper-range typos (`024` -> `KIN-NFR-022`, `028` -> `AC-022`), aligned schema names to `docs/schemas/*.schema.json` across QA/Roadmap/RTM docs, and linked `3D_ASSET_SPECIFICATION.md` in `CANONICAL_ID_REGISTRY.md` Section 4.9.
+
+## [0.15.0] - 2026-11-16 — Phase 0 Audit & Completion Sign-Off (`12-project-governance/`)
+
+### Added
+- Completed `DOCUMENTATION_AUDIT_REPORT.md` and `PHASE_0_COMPLETION_REPORT.md`, finalized `DOCUMENTATION_STATUS.md` (`100%` complete across all 105 tracked files including 96 domain specifications, 5 Draft 2020-12 JSON Schemas, and 4 portal documents), and passed strict automated audit (`0` errors).
