@@ -14,3 +14,8 @@ All notable additions, revisions, and audit resolutions to the KINERA Phase 0 do
 ### Added
 - `PROJECT_CHARTER.md`, `PRODUCT_VISION.md`, `PRODUCT_REQUIREMENTS_DOCUMENT.md` (`KIN-PRD-001`–`KIN-PRD-020`), `PRODUCT_SCOPE.md`, `GLOSSARY.md`, and `ASSUMPTIONS_AND_CONSTRAINTS.md`.
 - Locked V1 identity, 3 core pillars, 6 application sections, 7 canonical configurations, SI internal unit constraints, and explicit out-of-scope exclusions.
+
+## [0.3.0] - 2026-11-16 — Product Specification (`01-product-specification/`)
+
+### Added
+- `APPLICATION_STRUCTURE.md`, `USER_PERSONAS_AND_JOURNEYS.md`, `FUNCTIONAL_REQUIREMENTS.md` (`KIN-FR-001`–`KIN-FR-048`), `NON_FUNCTIONAL_REQUIREMENTS.md` (`KIN-NFR-001`–`KIN-NFR-022`), `FEATURE_SPECIFICATIONS.md`, and `ACCEPTANCE_CRITERIA.md` (`AC-001`–`AC-022`).
