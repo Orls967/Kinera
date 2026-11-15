@@ -65,3 +65,8 @@ All notable additions, revisions, and audit resolutions to the KINERA Phase 0 do
 ### Added
 - All 8 data/contract specs covering all 27 domain entities, canonical ID registry, simulation contracts, error contracts, and SemVer rules (`KIN-DATA-001`–`KIN-DATA-025`).
 - All 5 Draft 2020-12 JSON Schemas in `docs/schemas/`.
+
+## [0.10.0] - 2026-11-16 — 3D Visualization, Interaction, Animation & Performance (`08-3d-and-visualization/`)
+
+### Added
+- All 9 3D specifications covering Visual Identity, Design System, GLB/CAD asset standards, reusable Assembly Hierarchy, interaction modes, exploded/section-cut mechanics, camera presets, animation sequences, and 150k-tri / 120-draw-call performance budget (`KIN-3D-001`–`KIN-3D-025`).
