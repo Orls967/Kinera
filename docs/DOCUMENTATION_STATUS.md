@@ -45,13 +45,13 @@
 | `02-vehicle-architecture/COMPONENT_RELATIONSHIPS.md` | COMPLETE | 100 | 2026-11-16 | Component Anatomy | Self-reviewed | `067d74b` | Pushed (`main`) | — |
 | `02-vehicle-architecture/SUSPENSION_AND_STEERING_SPECIFICATION.md` | COMPLETE | 100 | 2026-11-16 | Component Anatomy | Self-reviewed | `067d74b` | Pushed (`main`) | — |
 | `02-vehicle-architecture/BRAKING_SYSTEM_SPECIFICATION.md` | COMPLETE | 100 | 2026-11-16 | Component Anatomy | Self-reviewed | `067d74b` | Pushed (`main`) | — |
-| `03-powertrain-engineering/POWERTRAIN_ENGINEERING_OVERVIEW.md` | COMPLETE | 100 | 2026-11-16 | 02-vehicle-arch | Self-reviewed | Pending commit 4a | Pending | — |
-| `03-powertrain-engineering/ICE_ENGINE_MODEL.md` | COMPLETE | 100 | 2026-11-16 | Powertrain Overview | Self-reviewed | Pending commit 4a | Pending | — |
-| `03-powertrain-engineering/EV_POWERTRAIN_MODEL.md` | COMPLETE | 100 | 2026-11-16 | Powertrain Overview | Self-reviewed | Pending commit 4a | Pending | — |
-| `03-powertrain-engineering/TRANSMISSION_MODEL.md` | NOT_STARTED | 0 | 2026-11-16 | ICE/EV Models | Pending | — | — | — |
-| `03-powertrain-engineering/DIFFERENTIAL_MODEL.md` | NOT_STARTED | 0 | 2026-11-16 | Drivetrain Topology | Pending | — | — | — |
-| `03-powertrain-engineering/DRIVETRAIN_EFFICIENCY_MODEL.md` | NOT_STARTED | 0 | 2026-11-16 | Transmission, Diff | Pending | — | — | — |
-| `03-powertrain-engineering/POWERTRAIN_JOURNEY_SPECIFICATION.md` | NOT_STARTED | 0 | 2026-11-16 | Power Flow, Models | Pending | — | — | — |
+| `03-powertrain-engineering/POWERTRAIN_ENGINEERING_OVERVIEW.md` | COMPLETE | 100 | 2026-11-16 | 02-vehicle-arch | Self-reviewed | `45db35d` | Pushed (`main`) | — |
+| `03-powertrain-engineering/ICE_ENGINE_MODEL.md` | COMPLETE | 100 | 2026-11-16 | Powertrain Overview | Self-reviewed | `45db35d` | Pushed (`main`) | — |
+| `03-powertrain-engineering/EV_POWERTRAIN_MODEL.md` | COMPLETE | 100 | 2026-11-16 | Powertrain Overview | Self-reviewed | `45db35d` | Pushed (`main`) | — |
+| `03-powertrain-engineering/TRANSMISSION_MODEL.md` | COMPLETE | 100 | 2026-11-16 | ICE/EV Models | Self-reviewed | Pending commit 4b | Pending | — |
+| `03-powertrain-engineering/DIFFERENTIAL_MODEL.md` | COMPLETE | 100 | 2026-11-16 | Drivetrain Topology | Self-reviewed | Pending commit 4b | Pending | — |
+| `03-powertrain-engineering/DRIVETRAIN_EFFICIENCY_MODEL.md` | COMPLETE | 100 | 2026-11-16 | Transmission, Diff | Self-reviewed | Pending commit 4b | Pending | — |
+| `03-powertrain-engineering/POWERTRAIN_JOURNEY_SPECIFICATION.md` | COMPLETE | 100 | 2026-11-16 | Power Flow, Models | Self-reviewed | Pending commit 4b | Pending | — |
 | `04-vehicle-dynamics/VEHICLE_DYNAMICS_OVERVIEW.md` | NOT_STARTED | 0 | 2026-11-16 | 00-foundation | Pending | — | — | — |
 | `04-vehicle-dynamics/LONGITUDINAL_DYNAMICS.md` | NOT_STARTED | 0 | 2026-11-16 | Dynamics Overview | Pending | — | — | — |
 | `04-vehicle-dynamics/LATERAL_DYNAMICS_BICYCLE_MODEL.md` | NOT_STARTED | 0 | 2026-11-16 | Dynamics Overview | Pending | — | — | — |

@@ -34,3 +34,8 @@ All notable additions, revisions, and audit resolutions to the KINERA Phase 0 do
 
 ### Added
 - `POWERTRAIN_ENGINEERING_OVERVIEW.md`, `ICE_ENGINE_MODEL.md`, and `EV_POWERTRAIN_MODEL.md` (`KIN-PWT-001`–`KIN-PWT-013`).
+
+## [0.5.1] - 2026-11-16 — Transmissions, Differentials, Efficiency & Journey (`03-powertrain-engineering/` part 2)
+
+### Added
+- `TRANSMISSION_MODEL.md`, `DIFFERENTIAL_MODEL.md`, `DRIVETRAIN_EFFICIENCY_MODEL.md`, and `POWERTRAIN_JOURNEY_SPECIFICATION.md` (`KIN-PWT-014`–`KIN-PWT-028`).
