@@ -75,3 +75,8 @@ All notable additions, revisions, and audit resolutions to the KINERA Phase 0 do
 
 ### Added
 - All 6 learning and reference specifications (`ENGINEERING_INSIGHTS_CURRICULUM.md`, `TECHNICAL_LIBRARY_STRUCTURE.md`, `LEARNING_CONTENT_SCHEMA.md`, `EQUATION_REFERENCE.md`, `GLOSSARY_AND_TERMINOLOGY.md`, `TECHNICAL_REFERENCE_POLICY.md`) defining 37 Engineering Insights topics across 4 groups, 10 Technical Library modules using a 9-part engineering template, locked equation registry (`eq.*`), controlled terminology, and verified textbook/standard bibliography (`Gillespie`, `Milliken & Milliken`, `Rajamani`, `Wong`, `Heywood`, `Ehsani`, `ISO 8855:2011`, `SAE J670_202206`).
+
+## [0.12.0] - 2026-11-16 — Quality Assurance & Engineering Validation (`10-quality-assurance/`)
+
+### Added
+- All 8 QA specifications (`TEST_STRATEGY.md`, `ENGINEERING_VALIDATION_PLAN.md`, `UNIT_AND_INTEGRATION_TEST_PLAN.md`, `SIMULATION_TEST_CASES.md`, `TOPOLOGY_VALIDATION_TESTS.md`, `3D_AND_INTERACTION_TEST_PLAN.md`, `PERFORMANCE_TEST_PLAN.md`, `ACCEPTANCE_TEST_PLAN.md`) defining `KIN-QA-001`–`KIN-QA-020`, closed-form validation checks across all 29 equations, topology graph mutation tests, all 19 edge-case tests (`TEST-EDGE-001`–`019`), 3D/WASM performance gates, and full `AC-001`–`AC-022` acceptance protocol.
