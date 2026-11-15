@@ -49,3 +49,8 @@ All notable additions, revisions, and audit resolutions to the KINERA Phase 0 do
 
 ### Added
 - `BRAKING_DYNAMICS.md`, `WEIGHT_TRANSFER_MODEL.md`, `TIRE_TRACTION_AND_FRICTION_MODEL.md`, and `VEHICLE_PERFORMANCE_ANALYSIS.md` (`KIN-VDY-015`–`KIN-VDY-028`).
+
+## [0.7.0] - 2026-11-16 — Simulation Engine (`05-simulation-engine/`)
+
+### Added
+- All 8 simulation engine specifications covering shared topology solver, lifecycle state machine, configuration comparison, RK4 numerical stability, and all 19 edge cases (`KIN-SIM-001`–`KIN-SIM-030`).

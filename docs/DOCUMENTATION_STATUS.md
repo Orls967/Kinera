@@ -55,18 +55,18 @@
 | `04-vehicle-dynamics/VEHICLE_DYNAMICS_OVERVIEW.md` | COMPLETE | 100 | 2026-11-16 | 00-foundation | Self-reviewed | `5a6b02e` | Pushed (`main`) | — |
 | `04-vehicle-dynamics/LONGITUDINAL_DYNAMICS.md` | COMPLETE | 100 | 2026-11-16 | Dynamics Overview | Self-reviewed | `5a6b02e` | Pushed (`main`) | — |
 | `04-vehicle-dynamics/LATERAL_DYNAMICS_BICYCLE_MODEL.md` | COMPLETE | 100 | 2026-11-16 | Dynamics Overview | Self-reviewed | `5a6b02e` | Pushed (`main`) | — |
-| `04-vehicle-dynamics/BRAKING_DYNAMICS.md` | COMPLETE | 100 | 2026-11-16 | Longitudinal, Braking | Self-reviewed | Pending commit 5b | Pending | — |
-| `04-vehicle-dynamics/WEIGHT_TRANSFER_MODEL.md` | COMPLETE | 100 | 2026-11-16 | Longitudinal, Lateral | Self-reviewed | Pending commit 5b | Pending | — |
-| `04-vehicle-dynamics/TIRE_TRACTION_AND_FRICTION_MODEL.md` | COMPLETE | 100 | 2026-11-16 | Weight Transfer | Self-reviewed | Pending commit 5b | Pending | — |
-| `04-vehicle-dynamics/VEHICLE_PERFORMANCE_ANALYSIS.md` | COMPLETE | 100 | 2026-11-16 | 03 & 04 models | Self-reviewed | Pending commit 5b | Pending | — |
-| `05-simulation-engine/SIMULATION_ARCHITECTURE.md` | NOT_STARTED | 0 | 2026-11-16 | 03 & 04 models | Pending | — | — | — |
-| `05-simulation-engine/SIMULATION_ENGINE_SPECIFICATION.md` | NOT_STARTED | 0 | 2026-11-16 | Sim Architecture | Pending | — | — | — |
-| `05-simulation-engine/POWERTRAIN_SIMULATION_SPECIFICATION.md` | NOT_STARTED | 0 | 2026-11-16 | 03-powertrain | Pending | — | — | — |
-| `05-simulation-engine/VEHICLE_DYNAMICS_SIMULATION_SPECIFICATION.md` | NOT_STARTED | 0 | 2026-11-16 | 04-vehicle-dynamics | Pending | — | — | — |
-| `05-simulation-engine/CONFIGURATION_COMPARISON_SPECIFICATION.md` | NOT_STARTED | 0 | 2026-11-16 | Sim Specs | Pending | — | — | — |
-| `05-simulation-engine/SIMULATION_STATE_AND_LIFECYCLE.md` | NOT_STARTED | 0 | 2026-11-16 | Sim Engine Spec | Pending | — | — | — |
-| `05-simulation-engine/NUMERICAL_METHODS_AND_STABILITY.md` | NOT_STARTED | 0 | 2026-11-16 | 04-vehicle-dynamics | Pending | — | — | — |
-| `05-simulation-engine/SIMULATION_ERROR_HANDLING.md` | NOT_STARTED | 0 | 2026-11-16 | Numerical Methods | Pending | — | — | — |
+| `04-vehicle-dynamics/BRAKING_DYNAMICS.md` | COMPLETE | 100 | 2026-11-16 | Longitudinal, Braking | Self-reviewed | `7a838e0` | Pushed (`main`) | — |
+| `04-vehicle-dynamics/WEIGHT_TRANSFER_MODEL.md` | COMPLETE | 100 | 2026-11-16 | Longitudinal, Lateral | Self-reviewed | `7a838e0` | Pushed (`main`) | — |
+| `04-vehicle-dynamics/TIRE_TRACTION_AND_FRICTION_MODEL.md` | COMPLETE | 100 | 2026-11-16 | Weight Transfer | Self-reviewed | `7a838e0` | Pushed (`main`) | — |
+| `04-vehicle-dynamics/VEHICLE_PERFORMANCE_ANALYSIS.md` | COMPLETE | 100 | 2026-11-16 | 03 & 04 models | Self-reviewed | `7a838e0` | Pushed (`main`) | — |
+| `05-simulation-engine/SIMULATION_ARCHITECTURE.md` | COMPLETE | 100 | 2026-11-16 | 03 & 04 models | Self-reviewed | Pending commit 6 | Pending | — |
+| `05-simulation-engine/SIMULATION_ENGINE_SPECIFICATION.md` | COMPLETE | 100 | 2026-11-16 | Sim Architecture | Self-reviewed | Pending commit 6 | Pending | — |
+| `05-simulation-engine/POWERTRAIN_SIMULATION_SPECIFICATION.md` | COMPLETE | 100 | 2026-11-16 | 03-powertrain | Self-reviewed | Pending commit 6 | Pending | — |
+| `05-simulation-engine/VEHICLE_DYNAMICS_SIMULATION_SPECIFICATION.md` | COMPLETE | 100 | 2026-11-16 | 04-vehicle-dynamics | Self-reviewed | Pending commit 6 | Pending | — |
+| `05-simulation-engine/CONFIGURATION_COMPARISON_SPECIFICATION.md` | COMPLETE | 100 | 2026-11-16 | Sim Specs | Self-reviewed | Pending commit 6 | Pending | — |
+| `05-simulation-engine/SIMULATION_STATE_AND_LIFECYCLE.md` | COMPLETE | 100 | 2026-11-16 | Sim Engine Spec | Self-reviewed | Pending commit 6 | Pending | — |
+| `05-simulation-engine/NUMERICAL_METHODS_AND_STABILITY.md` | COMPLETE | 100 | 2026-11-16 | 04-vehicle-dynamics | Self-reviewed | Pending commit 6 | Pending | — |
+| `05-simulation-engine/SIMULATION_ERROR_HANDLING.md` | COMPLETE | 100 | 2026-11-16 | Numerical Methods | Self-reviewed | Pending commit 6 | Pending | — |
 | `06-software-architecture/SYSTEM_ARCHITECTURE.md` | NOT_STARTED | 0 | 2026-11-16 | 01, 05 specs | Pending | — | — | — |
 | `06-software-architecture/FRONTEND_ARCHITECTURE.md` | NOT_STARTED | 0 | 2026-11-16 | System Arch | Pending | — | — | — |
 | `06-software-architecture/BACKEND_ARCHITECTURE.md` | NOT_STARTED | 0 | 2026-11-16 | System Arch | Pending | — | — | — |
