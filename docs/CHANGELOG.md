@@ -44,3 +44,8 @@ All notable additions, revisions, and audit resolutions to the KINERA Phase 0 do
 
 ### Added
 - `VEHICLE_DYNAMICS_OVERVIEW.md`, `LONGITUDINAL_DYNAMICS.md`, and `LATERAL_DYNAMICS_BICYCLE_MODEL.md` (`KIN-VDY-001`–`KIN-VDY-014`).
+
+## [0.6.1] - 2026-11-16 — Braking, Weight Transfer, Friction & Performance (`04-vehicle-dynamics/` part 2)
+
+### Added
+- `BRAKING_DYNAMICS.md`, `WEIGHT_TRANSFER_MODEL.md`, `TIRE_TRACTION_AND_FRICTION_MODEL.md`, and `VEHICLE_PERFORMANCE_ANALYSIS.md` (`KIN-VDY-015`–`KIN-VDY-028`).
