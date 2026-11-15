@@ -29,3 +29,8 @@ All notable additions, revisions, and audit resolutions to the KINERA Phase 0 do
 
 ### Added
 - `DRIVETRAIN_TOPOLOGY.md`, `POWER_FLOW_TOPOLOGY.md`, `COMPONENT_ANATOMY_SPECIFICATION.md`, `COMPONENT_RELATIONSHIPS.md`, `SUSPENSION_AND_STEERING_SPECIFICATION.md`, and `BRAKING_SYSTEM_SPECIFICATION.md` (`KIN-VEH-016`–`KIN-VEH-028`).
+
+## [0.5.0] - 2026-11-16 — Powertrain Models (`03-powertrain-engineering/` part 1)
+
+### Added
+- `POWERTRAIN_ENGINEERING_OVERVIEW.md`, `ICE_ENGINE_MODEL.md`, and `EV_POWERTRAIN_MODEL.md` (`KIN-PWT-001`–`KIN-PWT-013`).
