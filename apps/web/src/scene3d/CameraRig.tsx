@@ -15,7 +15,7 @@ const PRESET_MAP: Record<
   'top-plan': { pos: [0, 5.8, 0.05], target: [0, 0.4, 0], fov: 36 },
   'front-axle': { pos: [1.9, 0.88, 2.15], target: [0, 0.42, 1.35], fov: 38 },
   'rear-axle': { pos: [1.9, 0.88, -2.15], target: [0, 0.42, -1.35], fov: 38 },
-  'underbody-drivetrain': { pos: [2.5, -0.35, 0.1], target: [0, 0.35, 0], fov: 42 },
+  'underbody-drivetrain': { pos: [2.7, 0.58, 2.15], target: [0, 0.3, 0], fov: 40 },
   'powertrain-focus': { pos: [1.55, 0.95, 1.5], target: [0, 0.5, 0.9], fov: 36 },
 };
 

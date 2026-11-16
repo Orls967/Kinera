@@ -456,13 +456,13 @@ export function VehicleAssembly({
           />
         </mesh>
         {/* Headlight & Taillight LED signatures */}
-        <mesh position={[0, is4wd ? 0.85 : 0.66, halfL + 0.74]}>
-          <boxGeometry args={[1.38, 0.045, 0.04]} />
-          <meshStandardMaterial color="#E0F2FE" emissive="#00E5FF" emissiveIntensity={1.4} />
+        <mesh position={[0, is4wd ? 0.82 : 0.64, halfL + 0.66]}>
+          <boxGeometry args={[1.24, 0.04, 0.035]} />
+          <meshStandardMaterial color="#E0F2FE" emissive="#00E5FF" emissiveIntensity={1.2} />
         </mesh>
-        <mesh position={[0, is4wd ? 0.94 : 0.76, -halfL - 0.7]}>
-          <boxGeometry args={[1.36, 0.04, 0.04]} />
-          <meshStandardMaterial color="#EF4444" emissive="#EF4444" emissiveIntensity={1.2} />
+        <mesh position={[0, is4wd ? 0.92 : 0.74, -halfL - 0.64]}>
+          <boxGeometry args={[1.24, 0.038, 0.035]} />
+          <meshStandardMaterial color="#EF4444" emissive="#EF4444" emissiveIntensity={1.1} />
         </mesh>
       </CadPart>
 

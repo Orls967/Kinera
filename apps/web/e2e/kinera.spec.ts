@@ -130,13 +130,20 @@ test.describe('KINERA Production E2E, 3D WebGL, Simulation & Offline Verificatio
     await page.setViewportSize({ width: 390, height: 844 });
     await expect(page.getByTestId('kinera-3d-viewport').locator('canvas')).toBeVisible();
 
-    // Offline Mode test (only if Service Worker activated on localhost / https)
-    const swRegistered = await page.evaluate(async () => {
+    // Offline Mode test (wait until SW is ready & controlling client)
+    const swControlled = await page.evaluate(async () => {
       if (!('serviceWorker' in navigator)) return false;
-      const reg = await navigator.serviceWorker.getRegistration();
-      return Boolean(reg);
+      try {
+        const reg = await Promise.race([
+          navigator.serviceWorker.ready,
+          new Promise<null>((res) => setTimeout(() => res(null), 5000)),
+        ]);
+        return Boolean(reg && navigator.serviceWorker.controller);
+      } catch {
+        return false;
+      }
     });
-    if (swRegistered) {
+    if (swControlled) {
       await context.setOffline(true);
       await page.reload();
       await expect(page.getByTestId('kinera-3d-viewport').locator('canvas')).toBeVisible();

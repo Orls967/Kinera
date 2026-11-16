@@ -18,6 +18,9 @@ export default defineConfig(({ mode }) => {
           globPatterns: ['**/*.{js,css,html,svg,png,woff,woff2,wasm,json}'],
           maximumFileSizeToCacheInBytes: 10 * 1024 * 1024,
           cleanupOutdatedCaches: true,
+          clientsClaim: true,
+          skipWaiting: true,
+          navigateFallback: 'index.html',
         },
         manifest: {
           name: 'KINERA — Automotive Powertrain & Vehicle Dynamics Explorer',

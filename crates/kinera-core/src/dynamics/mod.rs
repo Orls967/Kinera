@@ -155,6 +155,11 @@ pub fn simulate_config_time_series(
 
     let steer = input.driver_inputs.steering_angle_rad;
     let max_brake_force = spec.mass_kg * g * 1.15;
+    let auto_upshift = cfg.powertrain_type == "ice"
+        && input.mode == crate::contracts::SimulationMode::MultiConfigComparison
+        && input.driver_inputs.gear_index == 1;
+    let mut active_gear = input.driver_inputs.gear_index;
+    let mut shift_timer = 0.0;
 
     for step in 0..=steps {
         let t = (step as f64) * dt;
@@ -166,10 +171,30 @@ pub fn simulate_config_time_series(
             );
         }
 
+        if auto_upshift && shift_timer <= 0.0 && (1..6).contains(&active_gear) {
+            let wheel_rpm = (vx / spec.tire_effective_radius_m) * 60.0 / (2.0 * std::f64::consts::PI);
+            let fd = if cfg.id == "vehicle.config.ice-4wd" { 4.10 } else { 3.94 };
+            let tc = if cfg.id == "vehicle.config.ice-4wd"
+                && input.driver_inputs.four_wd_mode == Some(crate::contracts::FourWdMode::FourL)
+            { 2.48 } else { 1.0 };
+            let ratio = crate::powertrain::ICE_GEAR_RATIOS[(active_gear - 1) as usize];
+            if wheel_rpm * ratio * tc * fd >= 6450.0 {
+                active_gear += 1;
+                shift_timer = 0.20;
+            }
+        }
+
+        let mut step_driver = input.driver_inputs.clone();
+        step_driver.gear_index = active_gear;
+        if shift_timer > 0.0 {
+            step_driver.throttle = 0.0;
+            shift_timer = (shift_timer - dt).max(0.0);
+        }
+
         // Powertrain propulsion / regen
         let (pt_snap, pt_warnings, p_batt_internal) = evaluate_powertrain_state(
             cfg,
-            &input.driver_inputs,
+            &step_driver,
             &input.environment,
             input.parameter_overrides.as_ref(),
             loads,

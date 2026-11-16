@@ -421,8 +421,12 @@ select:focus-visible {
     grid-template-columns: 1fr;
   }
 
+  .kin-lab-workspace > section {
+    order: -1;
+  }
+
   .kin-viewport-stage {
-    min-height: 420px;
+    min-height: 400px;
   }
 }
 
