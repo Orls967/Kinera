@@ -56,3 +56,4 @@ apps/web/test-results/
 .temp/
 .cache/
 *.tmp
+*.tsbuildinfo
