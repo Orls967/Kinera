@@ -45,6 +45,11 @@ venv/
 # Rust and WebAssembly build artifacts
 **/target/
 pkg/
+apps/web/src/wasm-pkg/
+
+# Playwright artifacts
+apps/web/playwright-report/
+apps/web/test-results/
 
 # Temporary and cache files
 .tmp/

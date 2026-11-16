@@ -1,0 +1,17 @@
+[workspace]
+members = [
+    "crates/kinera-core",
+    "crates/kinera-wasm",
+]
+resolver = "2"
+
+[workspace.package]
+version = "0.1.0"
+edition = "2021"
+authors = ["KINERA Engineering Team"]
+license = "MIT"
+
+[profile.release]
+opt-level = "s"
+lto = true
+codegen-units = 1

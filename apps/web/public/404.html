@@ -1,0 +1,25 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <title>KINERA — Redirecting</title>
+    <script>
+      (function () {
+        var loc = window.location;
+        var base = '/Kinera';
+        var path = loc.pathname;
+        if (path.indexOf(base) === 0) {
+          path = path.slice(base.length);
+        }
+        if (!path || path === '/') {
+          loc.replace(base + '/');
+          return;
+        }
+        loc.replace(base + '/#' + path + loc.search);
+      })();
+    </script>
+  </head>
+  <body style="background:#0E1116;color:#F1F5F9;font-family:system-ui,sans-serif;padding:2rem;">
+    Redirecting to KINERA Laboratory...
+  </body>
+</html>

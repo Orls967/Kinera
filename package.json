@@ -1,0 +1,18 @@
+{
+  "name": "kinera-workspace",
+  "version": "1.0.0",
+  "private": true,
+  "scripts": {
+    "build:wasm": "wasm-pack build crates/kinera-wasm --target web --release --out-dir ../../apps/web/src/wasm-pkg",
+    "dev": "npm --prefix apps/web run dev",
+    "build": "npm run build:wasm && npm --prefix apps/web run build",
+    "build:web": "npm --prefix apps/web run build",
+    "typecheck": "npm --prefix apps/web run typecheck",
+    "lint": "npm --prefix apps/web run lint",
+    "test:rust": "cargo test --workspace",
+    "test:web": "npm --prefix apps/web run test",
+    "test": "cargo test --workspace && npm --prefix apps/web run test",
+    "test:e2e": "npm --prefix apps/web run test:e2e",
+    "preview": "npm --prefix apps/web run preview"
+  }
+}
