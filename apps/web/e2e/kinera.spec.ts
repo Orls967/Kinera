@@ -118,7 +118,8 @@ test.describe('KINERA Production E2E, 3D WebGL, Simulation & Offline Verificatio
     expect(await page.getByTestId('library-module-list').locator('button').count()).toBe(10);
     await expect(page.getByTestId('library-module-reader')).toContainText('9. Verified References');
 
-    // Reload page on nested hash route
+    // Reload page on nested hash route (wait for networkidle so font fetches finish cleanly)
+    await page.waitForLoadState('networkidle');
     await page.reload();
     await expect(page.getByTestId('library-module-reader')).toBeVisible();
 
@@ -130,7 +131,8 @@ test.describe('KINERA Production E2E, 3D WebGL, Simulation & Offline Verificatio
     await page.setViewportSize({ width: 390, height: 844 });
     await expect(page.getByTestId('kinera-3d-viewport').locator('canvas')).toBeVisible();
 
-    // Offline Mode test (wait until SW is ready & controlling client)
+    // Offline Mode test (wait until networkidle + SW controlling client)
+    await page.waitForLoadState('networkidle');
     const swControlled = await page.evaluate(async () => {
       if (!('serviceWorker' in navigator)) return false;
       try {
