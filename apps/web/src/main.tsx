@@ -1,0 +1,22 @@
+import { StrictMode } from 'react';
+import { createRoot } from 'react-dom/client';
+import { registerSW } from 'virtual:pwa-register';
+import App from './App';
+import './index.css';
+import { useKineraStore } from './store/useKineraStore';
+
+registerSW({
+  immediate: true,
+  onNeedRefresh() {
+    useKineraStore.getState().setSwUpdateAvailable(true);
+  },
+});
+
+const rootEl = document.getElementById('root');
+if (rootEl) {
+  createRoot(rootEl).render(
+    <StrictMode>
+      <App />
+    </StrictMode>,
+  );
+}
